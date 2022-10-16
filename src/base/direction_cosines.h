@@ -11,6 +11,8 @@
 #ifndef PLM_CUDA_COMPILE
 #include "itk_direction_type.h"
 #endif
+
+#include "itk_image.h"
 #include "plm_math.h"
 
 #define DIRECTION_COSINES_IDENTITY_THRESH 1e-9
